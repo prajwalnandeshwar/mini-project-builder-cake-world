@@ -4,10 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Cake World</title>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header-container">
+            <div id="bgstyle">
+        <img src="assets/cake.png" class="cakelogo"/>
+        <p id="shopname">Cake World</p>
+        </div>
+        </div>
+      </header>
+      <section class="Rectangle1">
+        <div class="menu">
+          <img src="assets/list_template.png" class="Group-1" />
+          <div class="menu-container">
+            <h3>PRICES</h3>
+            <p>Chocolates ----------- 300</p>
+            <p>Strawberry ----------- 100</p>
+            <p>Butterscotch -------- 200</p>
+            <p>Vanilla ------------------- 250</p>
+            <p>Redvelvet ------------- 350</p>
+          </div>
+        </div>
+        <div class="cake">
+            <img src=".\assets\candle.png" alt="candle" id="candle" />
+            <div id="layer5">Layer5</div>
+            <div id="layer4">Layer4</div>
+            <div id="layer3">Layer3</div>
+            <div id="layer2">Layer2</div>
+            <div id="layer1">Layer1</div>
+          </div>
+            <div class="bill">
+              <img src="assets/list_template.png" class="Group-2"/>
+              <div class="bill-container">
+                <h3>BILL</h3>
+                <p class="items">Chocolates ------------- 300</p>
+                <p class="items">Strawberry ------------ 100</p>
+                <p class="items">Butterscotch --------- 200</p>
+                <p class="items">Vanilla -------------------- 250</p>
+                <p class="items">Redvelvet -------------- 350</p>
+                <p id="total"></p>
+              </div>
+            </div>
+            </section>
+            <footer class="footer">
+                  <div class="button-container">
+                      <button class="button btn-choc active">Chocolate</button> 
+                      <button class="button btn-strawberry active">Strawberry</button>
+                      <button class="button btn-butterscotch active">Butterscotch</button>
+                      <button class="button btn-vanilla active">Vanilla</button>
+                      <button class="button btn-redvelvet active">Redvelvet</button>
+                      <button class="btn-buy"  onclick="buy()">BUY</button>
+                    </div>
+            </footer>
+                <script src="app.js"></script>
 </body>
 <script src="/script.js"></script>
 </html>

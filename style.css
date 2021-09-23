@@ -1,11 +1,229 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
-
 *{
     margin:0;
     padding:0;
 }
+body {
+    overflow: hidden;
+}
+.header {
+    position: relative;
+    background-color: #0a5e61;
+  }
+.cakelogo{
+  position: relative;
+  top: 48%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  width: 170px;
+  height: 120px;
+  }
+.header-container{
+  width: auto;
+  height: 90px;
+}   
+#bgstyle{
+       width:250px;
+       height:150px;
+       background-color: rgb(9, 41, 43);
+       border-radius: 50%;
+       transform: translate(257%, 0%);
+       font-family: "Satisfy",cursive;
+       align-items: center;
+}
+#shopname{
+    color: #38dee4;
+    padding-left: 85px;
+    top:50%;
+    font-size: larger;
+  }
+.Rectangle1 {
+    width: 100%;
+    height: 530px;
+    background-color: #38dee4;
+    font-family: "Architects Daughter",cursive;
+  }
+  
+.menu {
+  position: absolute;
+  top: 28%;
+  left: 5%;
+  width: 300px;
+  height: 350px;
+  z-index: 0;
+}
+.menu-container {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  transform: translate(8%, -70%);
+}
 
-/* Fill your code*/
+.menu-container h3 {
+  padding-left: 2.2rem;
+  line-height: 2;
+  color:#0b2d2e;
+}
 
+.menu-container p {
+  padding-left: 2rem;
+  line-height: 1.5;
+  color:#0b2d2e;
+}
+.Group-1 {
+  width: 280px;
+  height: 301px;
+  object-fit: contain;
+}
+.Group-2 {
+  width: 280px;
+  height: 301px;
+  object-fit: contain;
+}
+
+.Group-3 {
+  position: relative;
+  width: 1440px;
+  height: 200px;
+  object-fit: contain;
+}
+.cake {
+  position: absolute;
+  bottom: 40%;
+  width: 245px;
+  left: 42%;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bill {
+    position: relative;
+    top: 22%;
+    left: 75%;
+    width: 840px;
+    height: 301px;
+    z-index: 0;
+  }
+  .bill-container {
+    position: absolute;
+    top: 50%;
+    left: 13%;
+    transform: translate(-43%, -50%);
+  }
+  .items{
+    visibility: hidden;
+  }
+  #total{
+    /*visibility: hidden;*/
+    text-align: center;
+  }
+  
+  .bill-container h3 {
+    padding-left: 6.4rem;
+    line-height: 2;
+    color:#0b2d2e;
+  }
+  
+  .bill-container p {
+    padding-left: 2.5rem;
+    line-height: 1.5;
+    color:#0b2d2e;
+  }
+ #layer1 {
+    width: 245px;
+    visibility: hidden;
+    background-color: #FF7600;
+    color: #FF7600;
+    border-radius: 15%;
+    align-self: center;
+  }
+  
+  #layer2 {
+    width: 200px;
+    left: 40px;
+    visibility: hidden;
+    background-color: #F14668;
+    border-radius: 15%;
+    color: #F14668;
+    align-self: center;
+  }
+  
+  #layer3 {
+    width: 160px;
+    left: 60px;
+    visibility: hidden;
+    background-color: #F9F871;
+    border-radius: 15%;
+    color: #F9F871;
+    align-self: center;
+  }
+  
+  #layer4 {
+    width: 120px;
+    left: 80px;
+    visibility: hidden;
+    background-color: whitesmoke;
+    border-radius: 15%;
+    color: whitesmoke;
+    align-self: center;
+  }
+  
+  #layer5 {
+    width: 80px;
+    left: 100px;
+    visibility: hidden;
+    background-color: red;
+    border-radius: 15%;
+    color: red;
+    align-self: center;
+  } 
+  .button:active {
+    background-color: #164647;
+    color: #38dee4;
+    width: 68px;
+    height: 18px;
+    transform: translateY(1px);
+  }
+  .btn-buy {
+    background-color:#54E346;
+    width: 55px;
+    height: 30px;
+    border-radius: 15%;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    font-family: 'Acme', sans-serif;
+  }
+  .button-container {
+    display: flex;
+    padding-top: 33px;
+    width: auto;
+    height: 100px;
+    justify-content: space-around;
+    background-color: #0a5e61;
+  }
+  .button {
+    width: 98px;
+    height: 38px;
+    border-radius: 35%;
+    cursor: pointer;
+    color: #0a3d3f;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;;
+    background-color: #38dee4;
+    line-height: 2px;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+  }
+  #candle {
+    width: 50px;
+    left: 120px;
+    visibility: hidden;
+    align-self: center;
+  }
